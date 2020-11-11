@@ -320,3 +320,19 @@ hr {
 	border-bottom: 1px solid grey;
 	margin-right: 30px;
 }
+
+/* help */
+.help-box {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(77, 205, 44);
+	border-radius: 5px;
+	position: fixed;
+	right: 5%;
+	bottom: 0;
+}
+
+.help {
+	text-align: center;
+	line-height: 50px;
+}
