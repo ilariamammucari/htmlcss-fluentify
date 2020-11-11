@@ -50,6 +50,7 @@ a:hover {
 
 .btn-green {
 	background-color: rgb(77, 205, 44);
+	color: white;
 }
 
 .btn-large {
@@ -166,10 +167,7 @@ header {
 }
 
 hr {
-	width: 20%;
-	margin-left: 40%;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 30px 40%;
 	border: 1px solid black;
 }
 
@@ -284,8 +282,41 @@ hr {
 
 
 /* fondo pagina */
-footer {
-	width: 100%;
-	height: 100px;
-	background-color: red;
+.sx {
+	width: 50%;
+	background-color: #b8c3be;
+	padding: 80px;
+	position: relative;
+}
+
+.sx h3 {
+	font-size: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.dx {
+	width: 50%;
+	height: 150px;
+	padding: 80px;
+	background-color: #b8c3be;
+	color: black;
+}
+
+.dx span {
+	padding: 20px;
+	color: grey;
+}
+
+.dx select {
+	font-size: 17px;
+	padding: 0 30px;
+	background-color: #b8c3be;
+	color: grey;
+	border: 0px;
+	border-bottom: 1px solid grey;
+	margin-right: 30px;
 }
