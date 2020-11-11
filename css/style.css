@@ -11,10 +11,6 @@ body {
 /* classi riutilizzabili */
 .container {
 	width: 80%;
-	/* da cancellare */
-	height: 100%;
-	/* background-color: white; */
-	/* /da cancellare */
 	margin: auto;
 }
 
@@ -156,7 +152,7 @@ header {
 
 .piano-formativo {
 	width: 33%;
-	padding: 10px;
+	padding: 10px 20px;
 }
 
 .piano-formativo img {
@@ -164,85 +160,89 @@ header {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	margin-bottom: 30px;
 }
 
-hr {
-	margin: 30px 40%;
-	border: 1px solid black;
-}
 
 .piano-formativo h3 {
 	color: rgb(77, 205, 44);
 	text-align: center;
-	font-size: 30px;
-	margin-top: 30px;
-	padding: 0 30px;
+	font-size: 25px;
+	padding: 0 20px;
+}
+
+.decoration {
+	width: 30%;
+	margin: 30px auto;
+	border: 1px solid black;
 }
 
 .piano-formativo p {
 	text-align: center;
 	margin-top: 30px;
 	color: grey;
-	padding: 0 50px;
 	font-size: 20px;
 }
 
 .affiancamento {
 	width: 33%;
+	padding: 10px 20px;
 }
 
 .affiancamento img {
-	width: 150px;
+	width: 170px;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	margin-bottom: 30px;
 }
 
 .affiancamento h3 {
 	color: rgb(77, 205, 44);
 	text-align: center;
-	font-size: 30px;
-	margin-top: 55px;
-	padding: 0 30px;
+	font-size: 25px;
+	padding: 0 10px;
 }
 
 .affiancamento p {
 	text-align: center;
 	margin-top: 30px;
 	color: grey;
-	padding: 0 95px;
 	font-size: 20px;
 }
 
 .monitoraggio {
 	width: 33%;
+	padding: 10px 20px;
 }
 
 
 .monitoraggio img {
-	width: 150px;
+	width: 130px;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	margin-bottom: 18px;
 }
 
 .monitoraggio h3 {
 	color: rgb(77, 205, 44);
 	text-align: center;
-	font-size: 30px;
-	margin-top: 10px;
-	padding: 0 30px;
+	font-size: 25px;
+	padding: 0 10px;
 }
 
 .monitoraggio p {
 	text-align: center;
 	margin-top: 30px;
 	color: grey;
-	padding: 0 60px;
 	font-size: 20px;
 }
 
-
+.divisorio {
+	border: 1px solid back;
+	margin: 30px;
+}
 /* livello iniziale */
 .box-livello-iniziale {
 	margin-top: 30px;
@@ -296,10 +296,6 @@ footer{
 
 .sx h3 {
 	font-size: 30px;
-	/* position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%); */
 }
 
 
@@ -319,6 +315,7 @@ footer{
 	border: 0px;
 	border-bottom: 1px solid grey;
 	margin-right: 30px;
+	padding-right: 50px;
 }
 
 /* help */
