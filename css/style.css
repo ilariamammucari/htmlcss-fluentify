@@ -336,3 +336,8 @@ footer{
 	text-align: center;
 	line-height: 50px;
 }
+
+.help a {
+	text-decoration: none;
+	color: white;
+}
