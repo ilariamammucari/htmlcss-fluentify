@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 /* classi riutilizzabili */
 .container {
 	width: 80%;
@@ -66,7 +70,6 @@ header {
 	background-repeat: no-repeat;
 	background-position: 110% 110%;
 	color: white;
-	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -127,43 +130,123 @@ header {
 /* language */
 .language {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
 	position: relative;
 }
 
 .language-box {
-	width: 100%;
-	padding: 50px;
+	padding: 80px;
 	background-color: rgb(184, 195, 190);
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
 }
 
-.language .container h2 {
+.language h2 {
 	font-size: 30px;
 	margin-bottom: 30px;
 }
 
-.language .container h3 {
+.language h3 {
 	color: grey;
 }
 
 
 /* piano */
-.piano {
-	/* da cancellare */
-	height: 300px;
-	/* background-color: lightblue; */
-	/* /da cancellare */
+.box {
+	margin-top: 50px;
 }
+
+.piano-formativo {
+	width: 33%;
+	padding: 10px;
+}
+
+.piano-formativo img {
+	width: 100px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+hr {
+	width: 20%;
+	margin-left: 40%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+}
+
+.piano-formativo h3 {
+	color: rgb(77, 205, 44);
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	padding: 0 30px;
+}
+
+.piano-formativo p {
+	text-align: center;
+	margin-top: 30px;
+	color: grey;
+	padding: 0 50px;
+}
+
+.affiancamento {
+	width: 33%;
+}
+
+.affiancamento img {
+	width: 150px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.affiancamento h3 {
+	color: rgb(77, 205, 44);
+	text-align: center;
+	font-size: 30px;
+	margin-top: 55px;
+	padding: 0 30px;
+}
+
+.affiancamento p {
+	text-align: center;
+	margin-top: 30px;
+	color: grey;
+	padding: 0 95px;
+}
+
+.monitoraggio {
+	width: 33%;
+}
+
+
+.monitoraggio img {
+	width: 150px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.monitoraggio h3 {
+	color: rgb(77, 205, 44);
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+	padding: 0 30px;
+}
+
+.monitoraggio p {
+	text-align: center;
+	margin-top: 30px;
+	color: grey;
+	padding: 0 60px;
+}
+
 
 /* livello iniziale */
 .livello-iniziale {
 	/* da cancellare */
 	height: 300px;
-	/* background-color: blue; */
+	background-color: blue;
 	/* /da cancellare */
 }
 
